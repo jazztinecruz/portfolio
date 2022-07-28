@@ -3,7 +3,7 @@ import Button from '../../elements/button'
 
 const Hero = () => {
   return (
-    <section id="#hero" className="grid lg:grid-flow-col gap-10 items-center mt-10 lg:mt-20">
+    <section id="home" className="grid lg:grid-flow-col gap-10 items-center mt-10 lg:mt-20">
       {/* Text and buttons*/}
       <div className="flex flex-col gap-8 lg:gap-10">
         <div className="flex flex-col gap-4">
