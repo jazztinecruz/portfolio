@@ -6,20 +6,19 @@ import { useState } from 'react'
 const Sidebar = () => {
   const [open, setOpen] = useState(false)
 
-  console.log(open)
   return (
     <div className="grid grid-cols-[1fr,auto] items-center py-4">
       <Logo />
 
       <MenuAlt3Icon
-        className="w-6 h-6 text-white cursor-pointer"
+        className="w-7 h-7 text-white cursor-pointer"
         onClick={() => setOpen(!open)}
       />
 
       <div
         className={`${
-          open ? 'hidden' : 'block'
-        } absolute top-0 right-0 h-full w-64 p-4 bg-white flex flex-col gap-10`}
+          open ? 'block' : 'hidden'
+        } absolute top-0 right-0 h-full w-64 p-4 z-50 bg-white flex flex-col gap-10`}
       >
         <XIcon
           className="w-6 h-6 text-black ml-auto cursor-pointer hover:animate-spin"
