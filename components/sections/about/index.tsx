@@ -3,7 +3,7 @@ import Title from '../../elements/section-title'
 
 const About = () => {
   return (
-    <section id="about" className="grid gap-24 lg:gap-40 items-center">
+    <section id="about" className="grid gap-24 lg:gap-28 items-center">
       <Title title="About Me" />
 
       <div className="lg:hidden">
