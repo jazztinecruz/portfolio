@@ -12,7 +12,7 @@ const Cover = () => {
       </div>
 
       {/* right grid dot */}
-      <div className='w-[100px] h-[100px] absolute -bottom-12 -right-4 lg:bottom-12 lg:-right-6 -z-50'>
+      <div className='w-[100px] h-[100px] absolute -bottom-12 -right-4 lg:-bottom-12 lg:-right-6 -z-50'>
         <Image src='/images/dot-grid.png' layout="fill"/>
       </div>
     </div>
