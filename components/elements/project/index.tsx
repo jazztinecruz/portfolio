@@ -50,7 +50,7 @@ const Project = () => {
         </div>
 
         {/* visit site button */}
-        <div className='mt-4'>
+        <div className='mt-4 mx-auto lg:mx-0'>
           <Button name="Visit Site" styled={true} />
         </div>
       </div>
