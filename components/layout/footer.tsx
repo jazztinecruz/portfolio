@@ -10,7 +10,7 @@ const Footer = () => {
       className="mt-40 grid grid-rows-[auto,1fr] gap-10 py-4 lg:py-8"
     >
       {/* logo and back to top */}
-      <div className="grid grid-cols-[1fr,auto] items-center">
+      <div className="grid place-items-end lg:grid-cols-[1fr,auto] lg:items-center">
         <div className='hidden lg:block'>
           <Logo />
         </div>
