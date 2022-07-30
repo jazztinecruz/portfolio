@@ -5,7 +5,7 @@ const Testimonials = () => {
   return (
     <section
       id="testimonials"
-      className="grid  gap-24 lg:gap-40"
+      className="grid gap-24 lg:gap-40"
     >
       <Title title="Testimonials" />
 

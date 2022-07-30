@@ -1,5 +1,5 @@
-import Navbar from '../navbar'
-import Sidebar from '../sidebar'
+import Navbar from '../sections/navbar'
+import Sidebar from '../sections/sidebar'
 
 const Header = () => {
   return (
