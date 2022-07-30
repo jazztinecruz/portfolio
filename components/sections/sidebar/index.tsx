@@ -18,7 +18,7 @@ const Sidebar = () => {
       <div
         className={`${
           open ? 'block' : 'hidden'
-        } absolute top-0 right-0 h-full w-64 p-4 z-50 bg-white flex flex-col gap-10`}
+        } absolute top-0 right-0 h-screen w-64 p-4 z-50 bg-white flex flex-col gap-10`}
       >
         <XIcon
           className="w-6 h-6 text-black ml-auto cursor-pointer hover:animate-spin"
