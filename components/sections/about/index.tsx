@@ -36,7 +36,7 @@ const About = () => {
               to exist and proudly flexing my talent to the world. And when I
               started to try coding it, I found it very interesting and I really
               loving it. That's how I ended up becoming a Frontend Developer.
-              <br></br> <br></br>And as a Developer, I am a fast learner,
+              <br></br> <br></br>As a Developer, I am a fast learner,
               trustworthy, hardworking and willing to learn as much as I can
               from my seniors. Giving out all my effort and the best as I can.
             </p>
@@ -85,7 +85,7 @@ const About = () => {
               to exist and proudly flexing my talent to the world. And when I
               started to try coding it, I found it very interesting and I really
               loving it. That's how I ended up becoming a Frontend Developer.
-              <br></br> <br></br>And as a Developer, I am a fast learner,
+              <br></br> <br></br>As a Developer, I am a fast learner,
               trustworthy, hardworking and willing to learn as much as I can
               from my seniors. Giving out all my effort and the best as I can.
             </p>
