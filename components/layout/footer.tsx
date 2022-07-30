@@ -5,7 +5,7 @@ import Logo from '../elements/logo'
 
 const Footer = () => {
   return (
-    <div id="contacts" className="mt-20 lg:mt-40 grid grid-rows-[auto,1fr] gap-10 py-4 lg:py-8">
+    <div id="contacts" className="mt-40 grid grid-rows-[auto,1fr] gap-10 py-4 lg:py-8">
       {/* logo and back to top */}
       <div className="grid grid-cols-[1fr,auto] items-center">
         <Logo />
