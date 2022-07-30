@@ -26,7 +26,7 @@ const Technologies = () => {
         </div>
 
         {/* sass, figma, */}
-        <div className="grid grid-flow-col lg:justify-center lg:gap-24 items-center">
+        <div className="grid grid-flow-col lg:justify-center lg:gap-48 items-center">
           <Techonology image="/images/sass.svg.png" title="Sass" style="w-20 h-20 lg:w-[180px] lg:h-[160px]"/>
           <Techonology image="/images/figma.png" title="Figma" style="w-20 h-28 lg:w-[130px] lg:h-[180px]"/>
         </div>
