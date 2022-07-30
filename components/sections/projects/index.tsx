@@ -6,7 +6,7 @@ const Projects = () => {
     <section id="projects" className="grid gap-32 lg:gap-40 items-center">
       <Title title="Projects Showcase" />
 
-      <div className='flex flex-col gap-40 lg:gap-48'>
+      <div className='flex flex-col gap-[200px] lg:gap-[300px]'>
         <Project/>
         <Project/>
         <Project/>
