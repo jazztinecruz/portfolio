@@ -10,15 +10,17 @@ const Footer = () => {
       className="mt-40 grid grid-rows-[auto,1fr] gap-10 py-4 lg:py-8"
     >
       {/* logo and back to top */}
-      <div className="grid place-items-end lg:grid-cols-[1fr,auto] lg:items-center">
-        <div className='hidden lg:block'>
+      <div className="grid lg:grid-cols-[1fr,auto] lg:items-center">
+        <div className="hidden lg:block">
           <Logo />
         </div>
-        <Link href="#hero">
-          <button className="bg-transparent text-sm lg:text-lg font-semibold hover:-translate-y-1 transition-all duration-300">
-            Back to Top
-          </button>
-        </Link>
+        <div className='mx-auto lg:ml-auto'>
+          <Link href="#hero">
+            <button className="bg-transparent text-sm lg:text-lg font-semibold hover:-translate-y-1 transition-all duration-300">
+              Back to Top
+            </button>
+          </Link>
+        </div>
       </div>
 
       {/* footer links */}
