@@ -23,7 +23,7 @@ const About = () => {
               designs without limitation and allows me to collaborate with other
               website designer. Styling my websites using CSS at first, and
               tried using SASS for better experience until I found out
-              TailwindCss and now I'm currently using it for much better
+              TailwindCss and now Im currently using it for much better
               experience and much more eaiser. And for developing user
               interface, I used react because it helps me to code
               without making separate JavaScript files. and I really found it
@@ -69,7 +69,7 @@ const About = () => {
               designs without limitation and allows me to collaborate with other
               website designer. Styling my websites using CSS at first, and
               tried using SASS for better experience until I found out
-              TailwindCss and now I'm currently using it for much better
+              TailwindCss and now Im currently using it for much better
               experience and much more eaiser. And for developing user
               interface, I used reac because it helps me to code
               without making separate JavaScript files. and I really found it
