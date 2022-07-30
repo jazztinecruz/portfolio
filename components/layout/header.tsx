@@ -3,14 +3,16 @@ import Sidebar from '../sections/sidebar'
 
 const Header = () => {
   return (
-    <section>
+    <div>
+      {/* mobile */}
       <div className="lg:hidden">
         <Sidebar/>
       </div>
+      {/* laptop */}
       <div className="hidden lg:block">
         <Navbar />
       </div>
-    </section>
+    </div>
   )
 }
 
