@@ -4,7 +4,7 @@ import Techie from './techie'
 
 const Project = () => {
   return (
-    <div className="flex flex-col lg:flex-row lg:even:flex-row-reverse gap-32 lg:gap-20">
+    <div className="flex flex-col lg:flex-row lg:even:flex-row-reverse items-center lg:even:gap-40 gap-32 lg:gap-20">
       {/* carousel */}
       <Cover />
 
