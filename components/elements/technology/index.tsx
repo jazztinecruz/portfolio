@@ -3,12 +3,13 @@ import Image from "next/image"
 interface Props {
   image: any
   title: string
+  style: string
 }
 
-const Techonology = ({ image, title}: Props) => {
+const Techonology = ({ image, title, style}: Props) => {
   return (
     <div className='flex flex-col gap-3 items-center'>
-      <div className="w-20 h-20 lg:w-[160px] lg:h-[160px] relative">
+      <div className={`${style} relative`}>
         <Image src={image} layout="fill" />
       </div>
 
