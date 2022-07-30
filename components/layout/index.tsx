@@ -11,10 +11,19 @@ const Layout = ({ children }: Props) => {
         <title>Portfolio | JZZTN</title>
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <section className="h-screen grid grid-rows-[auto,1fr,auto] max-w-7xl mx-auto px-4 lg:px-0">
-        <Header />
-        <main>{children}</main>
-        <Footer />
+      
+      <section className="h-screen grid grid-rows-[auto,1fr,auto] [&>*>div]:max-w-7xl [&>*>div]:mx-auto [&>*>div>*]:px-4 [&>*>div>*]:lg:px-0">
+        <div className='bg-secondary fixed top-0 left-0 right-0 z-50'>
+          <Header />
+        </div>
+        
+        <main>
+          {children}
+        </main>
+
+        <div>
+          <Footer />
+        </div>
       </section>
     </>
   )

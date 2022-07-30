@@ -3,7 +3,7 @@ import Button from '../../elements/button'
 
 const Hero = () => {
   return (
-    <section id="home" className="grid lg:grid-flow-col gap-10 items-center mt-10 lg:mt-20">
+    <section id="hero" className="relative h-full grid lg:grid-flow-col gap-10 items-center mt-20">
       {/* Text and buttons*/}
       <div className="flex flex-col gap-8 lg:gap-10">
         <div className="flex flex-col gap-4">
@@ -25,6 +25,8 @@ const Hero = () => {
       <div className="w-full h-[400px] lg:w-[512px] lg:h-[533px] relative">
         <Image src="/images/illustration.png" layout="fill" />
       </div>
+
+     
     </section>
   )
 }
