@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import FooterLinks from '../elements/footer-links'
-import SocialLinks from '../elements/footer-links/social-links'
+import SocialLinks from '../elements/social-links'
 import Logo from '../elements/logo'
 
 const Footer = () => {
