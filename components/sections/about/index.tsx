@@ -25,10 +25,7 @@ const About = () => {
               tried using SASS for better experience until I found out
               TailwindCss and now I'm currently using it for much better
               experience and much more eaiser. And for developing user
-              interface, I used react. Eventually, All frontend developers
-              learned the three fundamental languages in frontend which are
-              HTML, CSS and JavaScript for functionality. But then, One Day, my
-              colleague introduced me into Reactjs wherein it helps me to code
+              interface, I used react because it helps me to code
               without making separate JavaScript files. and I really found it
               interesting and easier.
               <br></br> <br></br>Since I was a child, I love making arts and
@@ -74,10 +71,7 @@ const About = () => {
               tried using SASS for better experience until I found out
               TailwindCss and now I'm currently using it for much better
               experience and much more eaiser. And for developing user
-              interface, I used react. Eventually, All frontend developers
-              learned the three fundamental languages in frontend which are
-              HTML, CSS and JavaScript for functionality. But then, One Day, my
-              colleague introduced me into Reactjs wherein it helps me to code
+              interface, I used reac because it helps me to code
               without making separate JavaScript files. and I really found it
               interesting and easier.
               <br></br> <br></br>Since I was a child, I love making arts and
