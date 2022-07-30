@@ -1,3 +1,4 @@
+import Button from '../button'
 import Cover from './cover'
 import Techie from './techie'
 
@@ -46,6 +47,11 @@ const Project = () => {
               <Techie name="Figma" />
             </div>
           </div>
+        </div>
+
+        {/* visit site button */}
+        <div className='mt-4'>
+          <Button name="Visit Site" styled={true} />
         </div>
       </div>
     </div>
