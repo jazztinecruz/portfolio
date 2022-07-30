@@ -2,10 +2,11 @@ import Image from "next/image"
 
 interface Props {
   image:string
+  style: string
 }
-const SocialLink = ({image}:Props) => {
+const SocialLink = ({image, style}:Props) => {
   return (
-    <div className='relative w-6 h-6 cursor-pointer'>
+    <div className={`${style} relative cursor-pointer`}>
       <Image src={image} layout="fill"/>
     </div>
   )
