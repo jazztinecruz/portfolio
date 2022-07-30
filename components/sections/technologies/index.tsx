@@ -21,7 +21,7 @@ const Technologies = () => {
         {/* react, nextjs, tailwind */}
         <div className="grid grid-flow-col lg:justify-center lg:gap-24 items-center">
           <Techonology image="/images/react.svg.png" title="React"  style="w-24 h-20 lg:w-[180px] lg:h-[160px]" />
-          <Techonology image="/images/nextjs.png" title="NextJs" style="w-32 h-20 lg:w-[450px] lg:h-[250px]" />
+          <Techonology image="/images/nextjs.png" title="NextJs" style="w-48 h-24 lg:w-[500px] lg:h-[280px]" />
           <Techonology image="/images/tailwind.svg.png" title="TailwindCSS" style="w-20 h-20 lg:w-[160px] lg:h-[160px]" />
         </div>
 
