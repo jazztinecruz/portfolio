@@ -20,10 +20,8 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-row items-center gap-4">
-          <Link href="#about">
-            <Button name="GET TO KNOW ME" styled={true} />
-          </Link>
-          <Button name="DOWNLOAD MY RESUME" styled={false} />
+          <Button name="GET TO KNOW ME" styled={true} link="#about" />
+          <Button name="SEE MY PROJECTS" styled={false} link="#projects" />
         </div>
       </div>
 
