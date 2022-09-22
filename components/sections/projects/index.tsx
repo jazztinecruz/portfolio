@@ -7,7 +7,12 @@ const Projects = () => {
       <Title title="Projects Showcase" />
 
       <div className="flex flex-col gap-[200px] lg:gap-[300px]">
-        <Project image="/images/dashboard.jpg" name="Project Manager System" paragraph="This showcase our very own Project Manager website wherein it allows the users to collab for a project, assigning project tasks for the members along with the deadline. It also allows the project members to chat and suggest their various ideas without using third party applications. It was developed by yours truly with a collaboration of one full stack developer colleague." link="#" />
+        <Project
+          image="/images/dashboard.jpg"
+          name="Project Manager System"
+          paragraph="This showcase our very own Project Manager website wherein it allows the users to collab for a project, assigning project tasks for the members along with the deadline. It also allows the project members to chat and suggest their various ideas without using third party applications. It was developed by yours truly with a collaboration of one full stack developer colleague."
+          link="#"
+        />
         <Project
           image="/images/barangay-img.png"
           name="Barangay Victoria Reyes System"
@@ -15,12 +20,17 @@ const Projects = () => {
           link="https://barangay-victoria-reyes.vercel.app/"
         />
         <Project
+          image="/images/restaurant.png"
+          name="Dine In Restaurant Website"
+          paragraph="This showcase the landing page of Dine In Restaurant wherein you can see the best sellers of the restaurant."
+          link="#"
+        />
+        <Project
           image="/images/art-gallery-img.png"
           name="Art Gallery Website"
-          paragraph="This showcase the landing page of an Art Gallery Website. It was made by React, TailwindCss, TypeScript, Nextjs and Figma"
+          paragraph="This showcase the landing page of an Art Gallery Website wherein you can see some photos of the exhibiion."
           link="https://art-gallery-landing-page-jzztn.vercel.app/"
         />
-        <Project image="" name="Project 001" paragraph="lorem20" link="" />
         <Project image="" name="Project 001" paragraph="lorem20" link="" />
       </div>
     </section>
