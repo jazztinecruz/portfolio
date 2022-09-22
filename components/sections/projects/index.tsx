@@ -7,7 +7,7 @@ const Projects = () => {
       <Title title="Projects Showcase" />
 
       <div className="flex flex-col gap-[200px] lg:gap-[300px]">
-        <Project image="" name="Project Manager System" paragraph="This showcase our very own Project Manager website wherein it allows the users to collab for a project, assigning project tasks for the members along with the deadline. It also allows the project members to chat and suggest their various ideas without using third party applications. It was developed by yours truly with a collaboration of one full stack developer colleague." link="#" />
+        <Project image="/images/dashboard.jpg" name="Project Manager System" paragraph="This showcase our very own Project Manager website wherein it allows the users to collab for a project, assigning project tasks for the members along with the deadline. It also allows the project members to chat and suggest their various ideas without using third party applications. It was developed by yours truly with a collaboration of one full stack developer colleague." link="#" />
         <Project
           image="/images/barangay-img.png"
           name="Barangay Victoria Reyes System"
