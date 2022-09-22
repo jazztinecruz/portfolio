@@ -5,7 +5,7 @@ interface Props {
 }
 const Cover = ({ img }: Props) => {
   return (
-    <div className="border-4 relative">
+    <div className="relative">
       {/* image */}
       <div className="w-full lg:w-[500px] lg:h-64 relative bg-gray-300">
         <Image src={img} layout="fill" objectFit="cover" />

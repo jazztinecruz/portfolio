@@ -1,14 +1,18 @@
-import Image from "next/image"
+import Image from 'next/image'
+import Link from 'next/link'
 
 interface Props {
-  image:string
+  image: string
   style: string
+  url: string
 }
-const SocialLink = ({image, style}:Props) => {
+const SocialLink = ({ image, style, url }: Props) => {
   return (
-    <div className={`${style} relative cursor-pointer`}>
-      <Image src={image} layout="fill"/>
-    </div>
+    <Link href={url}>
+      <div className={`${style} relative cursor-pointer`}>
+        <Image src={image} layout="fill" />
+      </div>
+    </Link>
   )
 }
 
