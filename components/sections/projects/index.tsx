@@ -11,18 +11,18 @@ const Projects = () => {
           image="/images/facebook-img.png"
           name="Facebook Homepage Clone"
           paragraph="This showcase the responsive homepage clone of one of the most popular social media, Facebook."
-          link="https://facebook-clone-homepage-git-main-jzztn.vercel.app/"
+          link="https://facebook-clone-homepage-ctda.vercel.app/"
         />
         <Project
           image="/images/instagram-clone.png"
           name="Instagram HomePage Clone"
-          paragraph="This showcase the responsive homepage clone of one of the most popular social media, Instagram."
+          paragraph="This showcase the responsive homepage clone of one of the most popular social media, Instagram. This wade made in only one-hour. "
           link="https://play.tailwindcss.com/RAJjq3Trjw"
         />
         <Project
           image="/images/tiktok-clone.png"
           name="Tiktok HomePage Clone"
-          paragraph="This showcase the responsive homepage clone of one of the most popular social media, Tiktok."
+          paragraph="This showcase the responsive homepage clone of one of the most popular social media, Tiktok. This wade made in only one-hour."
           link="https://play.tailwindcss.com/K9m3bB0QmK"
         />
         <Project
