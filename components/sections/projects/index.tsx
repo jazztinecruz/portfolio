@@ -1,5 +1,5 @@
-import Project from '../../elements/project'
-import Title from '../../elements/section-title'
+import Project from "../../elements/project";
+import Title from "../../elements/section-title";
 
 const Projects = () => {
   return (
@@ -9,15 +9,27 @@ const Projects = () => {
       <div className="flex flex-col gap-[200px] lg:gap-[300px]">
         <Project
           image="/images/facebook-img.png"
-          name="Facebook Clone HomePage"
+          name="Facebook Homepage Clone"
           paragraph="This showcase the responsive homepage clone of one of the most popular social media, Facebook."
-          link="https://facebook-clone-homepage.vercel.app/"
+          link="https://facebook-clone-homepage-git-main-jzztn.vercel.app/"
+        />
+        <Project
+          image="/images/instagram-clone.png"
+          name="Instagram HomePage Clone"
+          paragraph="This showcase the responsive homepage clone of one of the most popular social media, Instagram."
+          link="https://play.tailwindcss.com/RAJjq3Trjw"
+        />
+        <Project
+          image="/images/tiktok-clone.png"
+          name="Tiktok HomePage Clone"
+          paragraph="This showcase the responsive homepage clone of one of the most popular social media, Tiktok."
+          link="https://play.tailwindcss.com/K9m3bB0QmK"
         />
         <Project
           image="/images/barangay-img.png"
           name="Barangay Victoria Reyes System"
           paragraph="This showcase the full responsive website system of Barangay Victoria Reyes. It allows the user to request and inquire barangay documents online and effortless. Concepts of website was intended for the citizens of Barangay Victori Reyes. It was developed by yours truly with a collaboration of one full stack developer colleague. However, there will be some fixes to fix on the backend side."
-          link="https://barangay-victoria-reyes.vercel.app/"
+          link="https://victoria-reyes-ashy.vercel.app/"
         />
         <Project
           image="/images/art-gallery-img.png"
@@ -27,7 +39,7 @@ const Projects = () => {
         />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
