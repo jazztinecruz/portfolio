@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import Title from '../../elements/section-title'
+import Image from "next/image";
+import Title from "../../elements/section-title";
 
 const About = () => {
   return (
@@ -12,29 +12,23 @@ const About = () => {
           <div>
             <p className="text-center leading-loose lg:text-lg tracking-wide">
               <strong>Welcome to my Portfolio!</strong> I am Jazztine Hernandez
-              Cruz. I major in Computer Science with an honor of Deans Lister. I
-              am Frontend Developer and a Website Designer. I specialized on
-              making a well-made and user-friendly frontend websites and
-              creating stunning website designs. I am a freelancer since 2021
-              taking up all the projects from my clients from different school.
-              I design and develop their website ideas or concept based on their
-              preferences from scratch. <br></br> <br></br> For creating website
-              designs, I used Figma eversince. Figma allows me to make all my
-              designs without limitation and allows me to collaborate with other
-              website designer. Styling my websites using CSS at first, and
-              tried using SASS for better experience until I found out
-              TailwindCss. And for developing user
-              interface, I used react because it helps me to code
-              without making separate JavaScript files. and I really found it
-              interesting and easier.
-              <br></br> <br></br>Since I was a child, I love making arts and
-              designs. But not only I wanted to create, I love making my designs
-              to exist and proudly flexing my talent to the world. And when I
-              started to try coding it, I found it very interesting and I really
-              loving it. Thats how I ended up becoming a Frontend Developer.
+              Cruz. Bound to graduate in 2023 with a Bachelor’s Degree in
+              Computer Science and has a consecutive Dean’s Lister and College
+              Honors at Philippine Christian University, Philippines. I have 2+
+              years experience in Frontend Web Development specialized in making
+              responsive and user-friendly frontend websites using the famous
+              and well-known technologies like ReactJs, NextJs, TypeScript and
+              TailwindCSS, Git. And With 2+ years experience in creating and
+              stunning website designs.<br></br> <br></br> I am a freelancer
+              since 2021 taking some projects from different clients. I design
+              and develop their website concepts based on their preferences from
+              scratch.
               <br></br> <br></br>As a Developer, I am a fast learner,
-              trustworthy, hardworking and willing to learn as much as I can
-              from my seniors. Giving out all my effort and the best as I can.
+              hardworking, intelligent, creative, trustworthy, and always
+              willing to learn as much as I can from my seniors. Giving out all
+              my effort and I want to leverage my skills to your company and
+              will make sure to contribute as many as I can to your company
+              project.
             </p>
           </div>
 
@@ -57,22 +51,29 @@ const About = () => {
           <div>
             <p className="text-center leading-loose lg:text-lg tracking-wide">
               <strong>Welcome to my Portfolio!</strong> I am Jazztine Hernandez
-              Cruz. I major in Computer Science with an honor of a Deans Lister at Philippine Christian University. I
-              am Frontend Developer and a Website Designer. I specialized on
-              making a well-made and a user-friendly frontend websites using React and
-              creating stunning website designs using Figma. <br></br> <br></br> I am a freelancer since 2021
-              taking some projects from different schools.
-              I design and develop their website concepts based on their
-              preferences from scratch.
-              <br></br> <br></br>As a Developer, I am a fast learner, hardworking, creative,
-              trustworthy, and willing to learn as much as I can
-              from my seniors. Giving out all my effort and the best as I can.
+              Cruz. Bound to graduate in 2023 with a Bachelor’s Degree in
+              Computer Science and has a consecutive Dean’s Lister and College
+              Honors at Philippine Christian University, Philippines. I have 2+
+              years experience in Frontend Web Development specialized in making
+              responsive and user-friendly frontend websites using the famous
+              and well-known technologies like ReactJs, NextJs, TypeScript and
+              TailwindCSS, Git. And With 2+ years experience in creating and
+              stunning website designs.<br></br> <br></br> I am a freelancer
+              since 2021 taking some projects from different clients. I design
+              and develop their website concepts based on their preferences from
+              scratch.
+              <br></br> <br></br>As a Developer, I am a fast learner,
+              hardworking, intelligent, creative, trustworthy, and always
+              willing to learn as much as I can from my seniors. Giving out all
+              my effort and I want to leverage my skills to your company and
+              will make sure to contribute as many as I can to your company
+              project.
             </p>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;
