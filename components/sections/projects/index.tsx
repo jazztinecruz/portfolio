@@ -11,7 +11,7 @@ const Projects = () => {
           image="/images/facebook-img.png"
           name="Facebook Homepage Clone"
           paragraph="This showcase the responsive homepage clone of one of the most popular social media, Facebook."
-          link="https://facebook-clone-homepage-ctda.vercel.app/"
+          link="https://facebook-clone-homepage-ctda-jzztn.vercel.app/"
         />
         <Project
           image="/images/instagram-clone.png"
